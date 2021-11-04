@@ -40,8 +40,17 @@ on_cmd = [
 ]
 hook_add = '''
 nnoremap <silent> ,a :<C-u>Ag<CR>
-nnoremap <silent> ,f :<C-u>Files<CR>
+nnoremap <silent> ,f :<C-u>GFiles<CR>
 nnoremap <silent> ,b :<C-u>Buffers<CR>
 nnoremap <silent> ,m :<C-u>History<CR>
 set rtp+=/usr/local/opt/fzf
 '''
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'

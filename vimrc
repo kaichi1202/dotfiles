@@ -63,6 +63,9 @@ inoremap <expr><C-k> pumvisible() ? "<Up>" : "<C-k>"
 " NERDTree
 let g:NERDTreeWinSize = 20
 
+" vim-commentary
+autocmd FileType python setlocal commentstring=#\ %s
+
 " coc.nvim
 " set cmdheight=2
 set updatetime=300
