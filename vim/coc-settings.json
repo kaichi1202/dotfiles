@@ -1,3 +1,5 @@
 {
-  "suggest.keepCompleteopt": true
+  "suggest.keepCompleteopt": true,
+  "coc.preferences.formatOnSaveFiletypes": ["javascript"],
+  "eslint.autoFixOnSave": true
 }
